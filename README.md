@@ -5,8 +5,8 @@
 const Discord = require("discord.js");
 const { EmbedBuilder, ActionRowBuilder, ButtonBuilder } = require('discord.js');
 
-const torrent_module = require('../../modules/torrent')
-const torrent = require('../../modules/torrent')
+const torrent_module = require('discord-torrent')
+const torrent = require('discord-torrent')
 
 module.exports = {
     name: "torrent",
