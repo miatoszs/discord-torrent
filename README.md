@@ -15,7 +15,7 @@ module.exports = {
     usage: ".torrent <torrent name>",
     run: async (client, message, args) => {
     if(!args.length) {
-        return message.channel.send("Mi a címe a filmnek vagy sorozatnak?")
+        return message.channel.send("What do you want to download?")
           }
 
 
