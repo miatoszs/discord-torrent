@@ -9,7 +9,7 @@ const torrent_module = require('../../modules/torrent')
 const torrent = require('../../modules/torrent')
 
 module.exports = {
-    name: "test",
+    name: "torrent",
     aliases: ['1337x'],
     description: "search torrent",
     usage: ".torrent <torrent name>",
